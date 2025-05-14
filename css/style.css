@@ -258,6 +258,10 @@ footer {
     header div {
         text-align: center;
     }
+
+    .aside{
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width: 768px) {
