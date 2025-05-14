@@ -250,16 +250,12 @@ footer {
 
 @media (min-width: 576px) {
    
-    header a {
+    *{
         text-align: center;
         justify-content: center;
     }
 
-    header div {
-        text-align: center;
-    }
-
-    .aside{
+    aside{
         margin-bottom: 20px;
     }
 }
