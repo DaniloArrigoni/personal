@@ -3,6 +3,7 @@
     font-family: 'Tuffy', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    text-align: center;
 }
 
 .divisore{
@@ -36,6 +37,7 @@ img{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     padding: 50px;
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 .satin-white{
     background: rgba(255, 255, 255, 0.658); /* trasparenza */
@@ -45,6 +47,7 @@ img{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     padding: 50px;
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .row {
@@ -52,6 +55,7 @@ img{
     flex-wrap: wrap;
     align-items: center;       /* Centra il testo verticalmente */
     justify-content: center; 
+    text-align: center;
 }
 
 h1{
@@ -78,6 +82,7 @@ h3{
 }
 p{
     font-size: 20px;
+    text-align: center;
 }
 
 
@@ -97,7 +102,6 @@ main{
 
 .home-buttons{
     justify-content: center; 
-    gap: 20px;
 }
 
 .home-buttons a{
@@ -120,7 +124,7 @@ main{
 
 .home-buttons a:hover {
     color: rgb(27, 117, 168);
-    font-size: 3em;
+    font-size: 2.8em;
     transition: 0.5s;
 }
 
@@ -250,10 +254,9 @@ footer {
 
 @media (min-width: 576px) {
    
-    *{
-        text-align: center;
-        justify-content: center;
-    }
+   
+
+   
 
     aside{
         margin-bottom: 20px;
